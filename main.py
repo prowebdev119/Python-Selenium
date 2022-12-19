@@ -62,11 +62,6 @@ def main():
   button.click()
 
   sleep(15)
-  
-
-
-
-
 
   browser.close()
 
