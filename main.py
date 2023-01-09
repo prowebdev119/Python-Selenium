@@ -50,6 +50,8 @@ def main():
   monthCount = browser.find_element(By.XPATH,'/html/body/div[4]/div/div/div/div/div[1]/div/div/ul/li[3]/a/span/span')
   monthCount.click()
 
+
+
   sleep(1)
   day = browser.find_element(By.XPATH,'/html/body/div[1]/div/div[3]/div/div[2]/div/form/div[3]/div[2]/div/div[3]/div/a')
   day.click()
