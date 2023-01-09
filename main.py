@@ -33,7 +33,6 @@ def main():
   email = browser.find_element(By.XPATH,'/html/body/div[1]/div/div[3]/div/div[2]/div/form/div[5]/input')
   email.send_keys(userEmail)
 
-
   select = Select(browser.find_element_by_xpath('/html/body/div/div/div[3]/div/div[2]/div/form/div[4]/select'))
   select.select_by_index(3)
 
